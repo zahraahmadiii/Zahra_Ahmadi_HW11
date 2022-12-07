@@ -1,0 +1,35 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 40vw;
+    height: 80vh;
+    margin-top: 10vh;
+    border: 3px solid black;
+}
+.selectbox{
+    padding-top: 22px;
+    padding-left: 18px;
+}
+label{
+    font-size: 25px;
+}
+.inputs{
+    padding-top: 28px;
+    padding-left: 18px;
+    margin-bottom: 20px;
+}
+input{
+    width: 20vw;
+    height: 4vh;
+}
+p{
+    font-size: 25px;
+    padding-top: 22px;
+    padding-left: 18px;
+}
+.Pa{
+    margin-top: 10px;
+}
