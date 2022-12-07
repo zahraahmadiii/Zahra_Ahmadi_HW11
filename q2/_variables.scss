@@ -1,0 +1,24 @@
+// colors
+
+$red:#fa2d1e;
+$white:white;
+$gray:rgb(226, 226, 226);
+$black:black;
+$lightgray:rgb(208, 208, 208);
+
+$colors:(
+   "red":$red,
+   "white":$white,
+   "gray": $gray,
+   "black":$black,
+   "lightgray":$lightgray,
+);
+
+// space 
+
+$base-radius:20px;
+$onbase-radius:50%;
+$max-height:100%;
+$max-width:100%;
+$base-font:12px;
+$onbase-font:14px;

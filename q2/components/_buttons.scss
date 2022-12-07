@@ -1,0 +1,18 @@
+@each $key, $val in $colors{
+    .btn-#{$key} {
+        border-radius: $base-radius;
+        border: 1px solid $white;
+        background-color: $red;
+        color: $white;
+        font-size: $base-font;
+        font-weight: bold;
+        padding: 12px 45px;
+        text-transform: uppercase;
+
+    }
+}
+
+@mixin btn($base-radius,$base-font){
+    border-radius: $base-radius;
+    font-size: $base-font;
+}

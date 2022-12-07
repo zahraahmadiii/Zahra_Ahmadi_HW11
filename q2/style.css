@@ -1,0 +1,256 @@
+.btn-red {
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #fa2d1e;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #fa2d1e;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  text-transform: uppercase;
+}
+
+.btn-gray {
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #fa2d1e;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  text-transform: uppercase;
+}
+
+.btn-black {
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #fa2d1e;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  text-transform: uppercase;
+}
+
+.btn-lightgray {
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: #fa2d1e;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  text-transform: uppercase;
+}
+
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container {
+  border-radius: 10px;
+  box-shadow: 0 14px 28px black, 0 10px 10px black;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+  margin-top: 60px;
+  position: relative;
+}
+.container .create {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.container .create .f1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+.container .create .f1 .h1 {
+  font-weight: bold;
+}
+.container .create .f1 .icon1 {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+.container .create .f1 .icon1 .FGL1 {
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .create .f1 .p1 {
+  font-size: 12px;
+}
+.container .create .f1 input {
+  background-color: rgb(226, 226, 226);
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+.container .create .f1 .btn1 {
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid #fa2d1e;
+  background-color: #fa2d1e;
+  color: white;
+  font-weight: bold;
+  padding: 12px 45px;
+}
+.container .signIn {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .signIn .f2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+.container .signIn .f2 .h2 {
+  font-weight: bold;
+}
+.container .signIn .f2 .icon2 {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+.container .signIn .f2 .icon2 .FGL2 {
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .signIn .f2 .p1 {
+  font-size: 12px;
+}
+.container .signIn .f2 input {
+  background-color: rgb(226, 226, 226);
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+.container .signIn .f2 .forget {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+.container .signIn .f2 .btn2 {
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid #fa2d1e;
+  background-color: #fa2d1e;
+  color: white;
+  font-weight: bold;
+  padding: 12px 45px;
+}
+.container .overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.container .overlay .first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 130px;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  background-color: #fa2d1e;
+  border: 2px solid white;
+}
+.container .overlay .first .h3 {
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+.container .overlay .first .p3 {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+  color: white;
+}
+.container .overlay .first .btn3 {
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid white;
+  background-color: #fa2d1e;
+  color: white;
+  font-weight: bold;
+  padding: 12px 45px;
+  text-transform: uppercase;
+}
+.container .overlay .second {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2px solid white;
+  padding-top: 137px;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  background-color: #fa2d1e;
+}
+.container .overlay .second .h4 {
+  font-weight: bold;
+  margin: 0;
+  color: white;
+}
+.container .overlay .second .p4 {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+  color: white;
+}
+.container .overlay .second .btn4 {
+  border-radius: 20px;
+  font-size: 12px;
+  border: 1px solid white;
+  background-color: #fa2d1e;
+  color: white;
+  font-weight: bold;
+  padding: 12px 45px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */

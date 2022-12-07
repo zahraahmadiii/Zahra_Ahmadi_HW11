@@ -1,0 +1,205 @@
+@import "variables" ;
+@import "components/buttons";
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+ }
+ .container{
+    border-radius: 10px;
+    box-shadow: 0 14px 28px $black, 0 10px 10px $black;
+    width: 768px;
+    max-width: $max-width;
+    min-height: 480px;
+    margin-top: 60px;
+    position: relative;
+    .create{
+    width: 50%;
+    height: $max-height;
+    position:absolute;
+    top:0;
+    right:0;
+        .f1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: $max-height;
+    text-align: center;
+            .h1{
+                font-weight: bold;
+            }
+            .icon1{
+                margin: 20px 0;
+                display: flex;
+                flex-direction: row;
+                .FGL1{
+                   margin: 0 5px;
+                   height: 40px;
+                   width: 40px;
+                   border: 1px solid $gray;
+                   border-radius:$onbase-radius;
+                   display: inline-flex;
+                   justify-content: center;
+                   align-items: center;
+                }
+            }
+            .p1{
+                font-size: $base-font;
+            }
+            input{
+                background-color: $gray;
+                border: none;
+                padding: 12px 15px;
+                margin: 8px 0;
+                width: $max-width;
+            }
+            .btn1{
+               @include btn($base-radius,$base-font);
+               border: 1px solid $red;
+                background-color:$red;
+                color: $white;
+                font-weight: bold;
+                padding: 12px 45px;
+            }
+        }
+    }
+    .signIn{
+        width: 50%;
+        height: $max-height;
+        position:absolute;
+        top:0;
+        left:0;
+        .f2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0 50px;
+            height: $max-height;
+            text-align: center;
+            .h2{
+                font-weight: bold;
+            }
+            .icon2{
+                margin: 20px 0;
+                display: flex;
+                flex-direction: row;
+                .FGL2{
+                    margin: 0 5px;
+                    height: 40px;
+                    width: 40px;
+                    border: 1px solid $gray;
+                    border-radius: $onbase-radius;
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+                 }
+        }
+        .p1{
+            font-size: $base-font;
+        }
+        input{
+            background-color:$gray;
+            border: none;
+            padding: 12px 15px;
+            margin: 8px 0;
+            width: $max-width;
+        }
+        .forget{
+            color: $black;
+            font-size: $onbase-font;
+            text-decoration: none;
+            margin: 15px 0;
+        }
+        .btn2{
+            @include btn($base-radius,$base-font);
+            border: 1px solid $red;
+            background-color: $red;
+            color: $white;
+            font-weight: bold;
+            padding: 12px 45px;
+
+        }
+    }
+ }
+
+ .overlay{
+ position: absolute;
+  top: 0;
+  width: $max-width;
+  height: $max-height;
+
+    .first{
+        position:absolute;
+        top:0;
+        left:0;
+        padding-top: 130px;
+        text-align: center;
+        height: $max-height;
+        width: 50%;
+        background-color: $red;
+        border: 2px solid $white;
+        .h3{
+            font-weight: bold;
+            margin: 0;
+            color: $white;
+        }
+        .p3{
+            font-size: $onbase-font;
+            font-weight: 100;
+            line-height: 20px;
+            letter-spacing: 0.5px;
+            margin: 20px 0 30px;
+            color: $white;
+        }
+        .btn3{
+            @include btn($base-radius,$base-font);
+            border: 1px solid $white;
+            background-color:$red;
+            color: $white;
+            font-weight: bold;
+            padding: 12px 45px;
+            text-transform: uppercase;
+        }  
+      }
+
+      .second{
+        position:absolute;
+        top:0;
+        right:0;
+        border: 2px solid $white;
+        padding-top: 137px;
+        text-align: center;
+        height: $max-height;
+        width: 50%;
+        background-color: $red;
+    
+        .h4{
+            font-weight: bold;
+            margin: 0;
+            color: $white;
+        }
+        .p4{
+            font-size: $onbase-font;
+            font-weight: 100;
+            line-height: 20px;
+            letter-spacing: 0.5px;
+            margin: 20px 0 30px;
+            color: $white;
+        }
+        .btn4{
+            @include btn($base-radius,$base-font);
+            border: 1px solid $white;
+            background-color: $red;
+            color: $white;
+            font-weight: bold;
+            padding: 12px 45px;
+            text-transform: uppercase;
+        }
+      }
+  }
+ }
+ 
